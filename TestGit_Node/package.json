@@ -1,0 +1,22 @@
+{
+  "name": "git_node_test",
+  "version": "1.0.0",
+  "description": "\"This is a test for git and node\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioMiramontes/CourseWebDevelopmentReact.git"
+  },
+  "author": "Mauricio Miramontes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauricioMiramontes/CourseWebDevelopmentReact/issues"
+  },
+  "homepage": "https://github.com/MauricioMiramontes/CourseWebDevelopmentReact#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
