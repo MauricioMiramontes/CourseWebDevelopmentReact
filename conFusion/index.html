@@ -39,7 +39,8 @@
                         </a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#LoginModal">
+                    <!--Assigment 4: Task 1 remove the data-* -->
+                    <a id="LoginButtom">
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -199,9 +200,11 @@
                 </div>
                 <!--Assigment 2: Task 3-->
                 <div class="col-12 col-sm align-self-center">
-                    <!--Assigent 3: Task 3-->
-                    <a role="button" class="btn btn-warning btn-block btn-sm nav-link" data-toggle="modal"
-                        data-target="#ReserveModal" role="button">Reserve Table</a>
+                    <!--Assigment 3: Task 3-->
+                    <!--Assigment 4: Task 1 remove the data-* -->
+                    <a role="button" class="btn btn-warning btn-block btn-sm nav-link" role="button"
+                        id="ReserveTableButton">
+                        Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -483,6 +486,14 @@
                     $("#mycarousel").children("#carouselButton").addClass("btn-danger");
                     $("#carouselButton").children("span").addClass('fa-pause');
                 }
+            });
+            //Assigment 4: Task 2
+            $("#ReserveTableButton").click(function () {
+                $('#ReserveModal').modal('toggle');
+            });
+            //Assigment 4: Task 3
+            $("#LoginButtom").click(function () {
+                $('#LoginModal').modal('toggle');
             });
         });
     </script>

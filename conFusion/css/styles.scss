@@ -72,9 +72,26 @@ body{
     }
 }
 
+
 #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+//Assigment 4: Task 4
+.modal{
+    .modal-content{
+        .modal-header{
+            background:$background-dark;
+            color:floralwhite;
+
+        }
+        .modal-body{
+            background: $background-pale;
+        }
+    }
+    
+
 }
