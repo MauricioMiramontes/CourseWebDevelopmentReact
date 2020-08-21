@@ -61,6 +61,7 @@ body{
 
 .carousel-caption{
     padding-left: 250px;
+    padding-bottom: 50px;
 }
 
 #carouselButton {
